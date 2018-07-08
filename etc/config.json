@@ -1,0 +1,97 @@
+{
+  "initialSceneId": "hallA",
+  "scenes": [
+    {
+      "id": "hallA",
+      "title": "OdessaJS Hall A",
+      "image": "panos/hallA.jpg",
+      "preview": "panos/hallAPreview.jpg",
+      "doors": [
+        {
+          "sceneId": "lobby",
+          "location": {
+            "left": 2200,
+            "top": 900
+          }
+        }
+      ],
+      "hints": [
+        {
+          "description": "Main scene",
+          "location": {
+            "left": 2250,
+            "top": 400
+          }
+        },
+        {
+          "description": "DJ's place",
+          "location": {
+            "left": 800,
+            "top": 800
+          }
+        },
+        {
+          "description": "This guy is waiting for something",
+          "location": {
+            "left": 3250,
+            "top": 540
+          }
+        },
+        {
+          "description": "Drink here!",
+          "location": {
+            "left": 3620,
+            "top": 700
+          }
+        }
+      ]
+    },
+    {
+      "id": "hallB",
+      "title": "OdessaJS Hall B",
+      "image": "panos/hallB.jpg",
+      "preview": "panos/hallBPreview.jpg",
+      "doors": [
+        {
+          "sceneId": "lobby",
+          "location": {
+            "left": 1100,
+            "top": 610
+          }
+        }
+      ],
+      "hints": []
+    },
+    {
+      "id": "lobby",
+      "title": "OdessaJS Lobby",
+      "image": "panos/lobby.jpg",
+      "preview": "panos/lobbyPreview.jpg",
+      "doors": [
+        {
+          "sceneId": "hallA",
+          "location": {
+            "left": 4300,
+            "top": 610
+          }
+        },
+        {
+          "sceneId": "hallB",
+          "location": {
+            "left": 2300,
+            "top": 610
+          }
+        }
+      ],
+      "hints": [
+        {
+          "description": "Networking at OdessaJs",
+          "location": {
+            "left": 3250,
+            "top": 700
+          }
+        }
+      ]
+    }
+  ]
+}
